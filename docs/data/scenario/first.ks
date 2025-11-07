@@ -1,46 +1,50 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="打つかバントか"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「打つかバントか9回裏0アウト」[l][r]
 
-メロスは激怒した。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+9回裏0アウトランナー1塁、君に打席が回ってきた。[l][r]
+バントでランナーを進めるか強行で打つかの2択。[l][r]
+監督からのサインはノーサイン。[l][r]
 
-(中略)[l][r]
+さあ君はどうする！？[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sleep] →打つ [endlink][r]
+[link target=*tag_run] →バント [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=baseball_hit_man.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+ピッチャー振りかぶって投げた！[l][r]
+カキーン！！[l][r]
+実況「打球はどんどん伸びていく伸びていく！入ったーー！！ホームラン！！」[l][r]
+ホームランを打った君は見事ヒーローになりましたとさ。[l][r]
+おしまい。[r]
 
-【 BAD END 】[l][cm]
+【 GOOD END 】[l][cm]
 
 [jump target=*start]
 
 *tag_run
 
-[bg storage=run.jpg time=500]
+[bg storage=baseball_bunt_man.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+ピッチャー振りかぶって投げた！。[l][r]
+スカッッ...[l][r]
+横に倒したバットにボールは空を切った。スリーバント失敗。[l][r]
+ベンチに帰った君は監督に怒鳴られ、その試合以降干されてしまいましたとさ。[l][r]
+おしまい。[r]
 
-【 GOOD END 】[l][cm]
+【 BAD END 】[l][cm]
 
 [jump target=*start]
